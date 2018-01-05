@@ -104,8 +104,4 @@ public class GPSIndoorLocationProvider extends IndoorLocationProvider implements
         return false;
     }
 
-    @Override
-    public String getName() {
-        return "GPS";
-    }
 }
