@@ -26,7 +26,7 @@ public class GPSIndoorLocationProvider extends IndoorLocationProvider implements
     private LocationManager locationManager;
 
     public GPSIndoorLocationProvider(Context context) {
-        super("GPS");
+        super();
         mContext = context;
         locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
         if (locationManager != null) {
@@ -36,7 +36,7 @@ public class GPSIndoorLocationProvider extends IndoorLocationProvider implements
     }
 
     public GPSIndoorLocationProvider(Context context, long updateMinimumDistance, long updateMinimumTime) {
-        super("GPS");
+        super();
         mContext = context;
         MIN_DISTANCE_CHANGE_FOR_UPDATES = updateMinimumDistance;
         MIN_TIME_BW_UPDATES = updateMinimumTime;

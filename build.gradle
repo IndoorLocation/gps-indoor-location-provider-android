@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
@@ -17,6 +17,7 @@ allprojects {
             url "https://jitpack.io"
         }
         maven { url 'https://maven.google.com' }
+        maven { url 'https://mapwize-maven.azureedge.net'}
     }
 
 }

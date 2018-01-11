@@ -2,7 +2,7 @@ package io.indoorlocation.gps.demoapp;
 
 import android.app.Application;
 
-import io.mapwize.mapboxplugin.AccountManager;
+import io.mapwize.mapwizeformapbox.AccountManager;
 
 
 public class GPSIndoorLocationProviderDemoApplication extends Application {

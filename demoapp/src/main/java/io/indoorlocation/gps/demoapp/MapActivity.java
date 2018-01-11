@@ -8,6 +8,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+
 import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
@@ -15,8 +16,9 @@ import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 
 import io.indoorlocation.gps.GPSIndoorLocationProvider;
 
-import io.mapwize.mapboxplugin.MapOptions;
-import io.mapwize.mapboxplugin.MapwizePlugin;
+import io.mapwize.mapwizeformapbox.MapOptions;
+import io.mapwize.mapwizeformapbox.MapwizePlugin;
+
 
 public class MapActivity extends AppCompatActivity {
 
@@ -29,7 +31,7 @@ public class MapActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Mapbox.getInstance(this, "pk.eyJ1IjoiZXRpZW5uZS1tYXB3aXplIiwiYSI6ImNpaWszNWF2dDAxYjF1aWtwYTI5bmQxam4ifQ.7GdfVuicspgzILBdynB2qQ");
+        Mapbox.getInstance(this, "pk.eyJ1IjoibWFwd2l6ZSIsImEiOiJjamNhYnN6MjAwNW5pMnZvMnYzYTFpcWVxIn0.veTCqUipGXCw8NwM2ep1Xg");
 
         setContentView(R.layout.activity_map);
 

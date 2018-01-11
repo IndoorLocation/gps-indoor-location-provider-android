@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "io.mapwize.gpsprovider"
+        applicationId "io.indoorlocation.gps.demoapp"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -22,8 +22,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile ('io.mapwize:mapboxplugin:0.0.7@aar') {
-        transitive=true
+    compile ("io.mapwize.indoormaps:MapwizeForMapbox:1.0.0@aar") {
+        transitive = true
     }
     compile project(path: ':gpslocationprovider')
 }
