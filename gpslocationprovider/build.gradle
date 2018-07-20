@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:appcompat-v7:27.1.1'
     compile 'com.github.IndoorLocation:indoor-location-android:1.0.5'
 }
